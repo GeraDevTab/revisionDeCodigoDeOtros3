@@ -10,14 +10,24 @@
 </head>
 
 <body>
-
   <div>
-      <input type="text" placeholder="Seleccioná un color o tipo">
-      <button>Filtrar</button>
+    <h2><label for="">Seleccione un color</label></h2>
+    <!--Escriba la palabra: "azul"</p>
+      <input type="text" placeholder="Seleccioná un color o tipo">-->
+      <br>
+      <select name="color" id="color">
+        <option value="" selected>Seleccione un color</option>
+        <option value="azul">Azul</option>
+        <option value="negro">Negro</option>
+        <option value="rojo">Rojo</option>
+      </select>
+      <!--<button>Filtrar</button>-->
       <h1>Lista de productos </h1>
+
       <div id="lista-de-productos">
-    </div>
+      </div>
   </div>
+  
   <script src="../filtro.js"></script>
 </body>
 

@@ -1,4 +1,4 @@
-input {
+input, select {
   width: 500px;
   height: 40px;
   font-size: 18px;
@@ -22,3 +22,9 @@ input {
   width: 70%;
   height: auto
 }
+
+/*select {
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+}*/
